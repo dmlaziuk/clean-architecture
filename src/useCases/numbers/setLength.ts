@@ -23,7 +23,8 @@ const createNumbersArrOfLength = (n: number) => {
 
 const name = 'numbers/setLength'
 export const { useCase: setNumbersLengthUseCase, intent: setNumbersLengthIntent } =
-  createUseCase<SideEffects, Payload>(name,
+  createUseCase<SideEffects, Payload>(
+    name,
     (intents, se) =>
       intents
         .pipe(

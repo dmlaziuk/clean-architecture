@@ -16,6 +16,9 @@ if (process.env.NODE_ENV === 'development') {
       numbers: numbersStream,
       evenNumbers: evenNumbersStream,
       numbersWarning: numbersWarningStream
+    },
+    {
+      log: true
     }
   )
 
